@@ -1,0 +1,73 @@
+html,body{margin:0; padding:0;}
+#banderole{height:300px;background-image:url(tech.jpg);  background-position: center; margin-bottom:0px;}
+#btexte{width: 850px;margin:0px auto;}
+#btexte p{   text-align:center;margin:0px 0px; font-size: 35px;color:white;font-family: 'Playfair Display', serif;}
+#btexte img{border:2px solid black;border-radius:20px ;float: left; width:88.55px;height:101.2px;}
+#nom{padding-top: 90px;}
+#img{padding-top:90px; width:100px;float:left;  }
+.menu{display:inline-block; padding-right:30px;height:35px;}
+.menu:hover{text-decoration:underline ;}
+.sousmenu>li:hover{text-decoration:underline ;}
+.sousmenu{display:none;position: absolute;background-color:#074685;}
+li:hover ul.sousmenu{display:block;list-style-type: none;}
+#menu li>a{text-decoration: none; color:white;font-family: 'Playfair Display', serif;}
+#menu{background-color:#074685; margin:0 0;}
+#bas{background-color:black;height:200px;}
+#bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
+#bas>div li {color:white;font-size:12px; font-family:'Playfair Display', serif;list-style-type: none;padding-bottom: 15px;}
+#bas>div>ul{padding:0px;margin-bottom:0px;}
+#logoc{width:80px;height:80px;float:right;margin-top:-120px; opacity: 0.5;}
+#réseausoc{width:25px;height:25px;}
+
+
+
+#contenu{margin:0 auto; width:70%;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685;background-color:#074685;border-top: white 2px solid;border-bottom: white 2px solid;}
+#titre{width: 700px;margin:0 auto;}
+#titre>h1{color:white; font-family:'Playfair Display', serif;font-size:60px; letter-spacing:5px; text-decoration:underline;float:right;display:block;margin:40px 15% 40px 0;}
+.action{padding-top:100px;}
+.action p{text-align: center;color:white;font-family: 'Roboto', sans-serif;font-size:16px;width:70%;display:block;margin: 0 auto 0 auto;}
+#ethernet{width: 250px; height:80.19px;float:left;padding-top:50px;}
+#fibre{width: 250px; height:58.88px;float:left;padding-top:70px;}
+#wifi{width:250px;height:160.36px;padding-top:40px;margin-bottom:15px;}
+.pc{width: 150px; height:110.5px;float:right;padding-top:40px;}
+#routeur{width:200px;height: 111.96px;margin:30px 0px 40px 10%;}
+#contenu div div{width:40%;display:inline-block;}
+.chargement{height:18.48px;width:100px;}
+.clear{clear:both;}
+.A{padding-top:110px;animation-duration: 3s;animation-name: chargement1;animation-iteration-count: infinite;}
+.B{padding-top:100px;animation-duration: 0.25s;animation-name: chargement2;animation-iteration-count: infinite;}
+.C{padding-bottom:70px;animation-duration: 60s;animation-name: chargement3;animation-iteration-count: infinite;}
+
+  @keyframes chargement1 {
+    from {
+      display:none;
+      margin-left: 1%; 
+    }
+    to {
+        diplay:inline-block;
+      margin-left: 150%;
+    }
+  }
+  @keyframes chargement2 {
+    from {
+      display:none;
+      margin-left: 1%; 
+    }
+  
+    to {
+        diplay:inline-block;
+        margin-left: 150%;
+    }
+  }
+  @keyframes chargement3 {
+    from {
+      display:none;
+      margin-left: 1%; 
+    }
+  
+    to {
+        diplay:inline-block;
+      margin-left: 150%;
+    }
+  }
+  #fond{background: linear-gradient(to bottom right, white, #6171ff);}

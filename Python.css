@@ -1,0 +1,45 @@
+html,body{margin:0; padding:0;} 
+#banderole{height:300px;background-image:url(tech.jpg);  background-position: center; margin-bottom:0px;
+}
+#btexte{width: 850px;margin:0px auto;
+
+}
+#btexte p{   text-align:center;margin:0px 0px; font-size: 35px;color:white;font-family: 'Playfair Display', serif;}
+#btexte img{border:2px solid black;border-radius:20px ;float: left; width:88.55px;height:101.2px;}
+#nom{padding-top: 90px;}
+#img{padding-top:90px; width:100px;float:left;  }
+.menu{display:inline-block; padding-right:30px;height:35px;}
+.menu:hover{text-decoration:underline ;}
+.sousmenu>li:hover{text-decoration:underline ;}
+.sousmenu{display:none;position: absolute;background-color:#074685;}
+li:hover ul.sousmenu{display:block;list-style-type: none;}
+#menu li>a{text-decoration: none; color:white;font-family: 'Playfair Display', serif;}
+#menu{background-color:#074685; margin:0 0;}
+#bas{background-color:black;height:200px;}
+#bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
+#bas>div li {color:white;font-size:12px; font-family:'Playfair Display', serif;list-style-type: none;padding-bottom: 15px;}
+#bas>div>ul{padding:0px;margin-bottom:0px;}
+#logoc{width:80px;height:80px;float:right;margin-top:-120px; opacity: 0.5;}
+#réseausoc{width:25px;height:25px;}
+
+
+#logoP{width:100px;height:100px;margin:40px 0px 40px 80px;}
+#contenu{margin:0 auto; width:70%;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; background-color:#074685;border-top: white 2px solid;border-bottom: white 2px solid;}
+#titre{width:500px;margin:0 auto;}
+#h2{color:white;font-family: 'Roboto', sans-serif;font-size:20px;margin-left:10px;}
+#contenu>div>h1{color:white; font-family:'Playfair Display', serif;font-size:60px; letter-spacing:5px; text-decoration:underline;float:right;display:block;}
+.tedroite{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:right;color:white;}
+.imgauche{float:left;margin-bottom:15px;width:45%;}
+.tegauche{font-family: 'Roboto', sans-serif;font-size:16px;width:55%;float:left;padding-top:50px;color:white;}
+.imdroite{float:right;margin-bottom:15px;width:45%;}
+#droite{padding-top:50px;}
+#mémo{width: 300px; height:172.683px;}
+#mémo:hover{width:400px;height:230.244px;margin-bottom:15px;float:left;}
+#chasse-taupe{width:300px;height:219.4px;float:right;margin-bottom:15px;}
+#chasse-taupe:hover{width:400px;height:292.32px;margin-bottom:15px;}
+#pfc:hover{width:400px;height:212.53px;margin-bottom:15px;}
+#pfc{width:300px;height:159.4px;float:right;margin-bottom:15px;}
+.clear{clear:both;}
+#pac{width:300px;height:261.43px;float:left;margin-bottom:15px;}
+#pac:hover{width:400px;height:348.57px;margin-bottom:15px;float:left;}
+#fond{background: linear-gradient(to bottom right, white, #6171ff);}

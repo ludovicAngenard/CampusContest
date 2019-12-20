@@ -1,0 +1,41 @@
+html,body{margin:0; padding:0;} 
+#banderole{height:300px;background-image:url(tech.jpg);  background-position: center; margin-bottom:0px;
+}
+#btexte{width: 850px;margin:0px auto;
+
+}
+#btexte p{   text-align:center;margin:0px 0px; font-size: 35px;color:white;font-family: 'Playfair Display', serif;}
+#btexte img{border:2px solid black;border-radius:20px ;float: left; width:88.55px;height:101.2px;}
+#nom{padding-top: 90px;}
+#img{padding-top:90px; width:100px;float:left;  }
+.menu{display:inline-block; padding-right:30px;height:35px;}
+.menu:hover{text-decoration:underline ;}
+.sousmenu>li:hover{text-decoration:underline ;}
+.sousmenu{display:none;position: absolute;background-color:#074685;}
+li:hover ul.sousmenu{display:block;list-style-type: none;}
+#menu li>a{text-decoration: none; color:white;font-family: 'Playfair Display', serif;}
+#menu{background-color:#074685; margin:0 0;}
+#bas{background-color:black;height:200px;}
+#bas>div{width: 60%;margin:0 auto;padding-top: 50px;}
+#bas>div li {color:white;font-size:12px; font-family:'Playfair Display', serif;list-style-type: none;padding-bottom: 15px;}
+#bas>div>ul{padding:0px;margin-bottom:0px;}
+#logoc{width:80px;height:80px;float:right;margin-top:-120px; opacity: 0.5;}
+#réseausoc{width:25px;height:25px;}
+
+#contenu{width:80%;margin:0 auto;box-shadow: 10px 0px 10px -7px #074685,-10px 0px 10px -7px #074685; background-color:#074685;border-top: white 2px solid;border-bottom: white 2px solid;}
+#titre{width:70%;margin: 0 auto;}
+#titre h1 {color:white; font-family:'Playfair Display', serif;font-size:40px; letter-spacing:5px; text-decoration:underline;display:block;margin:0px auto 40px auto;padding-top:40px;text-align: center;}
+#tomate{width:300px;height:201.4px;float:right;}
+#entrepôt{width:150px;height:100px;float:right;margin-right:5px;margin-bottom:5px;}
+#expéditeur{width:150px;height:101.6px;float:right;}
+#commande{width:305;height:203.57px;float:right; margin-bottom:50px;}
+#texte{width:60%;float:left;}
+#texte p {color:white;font-family: 'Roboto', sans-serif;font-size:20px;float:left;}
+#texte h2{color:white;font-family: 'Roboto', sans-serif;font-size:25px;}
+#deuxièmepartie{width:60%; float:left;border-top: white 2px solid;}
+#deuxièmepartie h2{color:white;font-family: 'Roboto', sans-serif;font-size:25px;padding-top:50px}
+#deuxièmepartie p {color:white;font-family: 'Roboto', sans-serif;font-size:20px;}
+#image{width:40%;float: right;}
+#partieimage2{width:40%;float:right;padding-top:50px;padding-bottom:15px;border-top: white 2px solid;}
+.clear{clear:both;}
+#fond{background: linear-gradient(to bottom right, white, #6171ff);}
